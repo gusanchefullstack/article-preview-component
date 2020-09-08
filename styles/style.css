@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 
-.body {
-    background-color: hsl(212, 23%, 69%);
+body {
+    background-color: hsl(210, 46%, 95%);
     margin: 0;
     font-size: 13px;
 }
@@ -90,5 +90,11 @@
     font-size: 13px;
 }
 
+.social__share {
+    color: hsl(217, 19%, 35%);
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50%;
+    padding: 5px 8px;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
