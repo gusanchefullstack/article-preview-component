@@ -26,6 +26,7 @@ body {
     /* border: 1px solid black; Testing*/ 
     font-family: 'Manrope', sans-serif;
     overflow: hidden;
+    box-shadow: 9px 11px 15px 0px hsl(210deg 25% 89%);
 }
 
 /* .component__image {
