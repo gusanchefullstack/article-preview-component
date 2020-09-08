@@ -28,10 +28,10 @@ body {
     overflow: hidden;
 }
 
-.component__image {
+/* .component__image {
     flex: 0 1 100%;
    
-}
+} */
 
 .component__image-properties {
     width: 360px;
