@@ -1,5 +1,5 @@
 .social-box {
-  max-width: 320px;
+  max-width: 350px;
   display: flex;
   flex-wrap: nowrap;
   flex: 0 1 auto;
@@ -10,8 +10,8 @@
   border-radius: 10px;
   position: absolute;
   top: 46%;
-  left: 64.5%;
-  padding: 12px 20px;
+  left: 63.5%;
+  padding: 12px 25px;
 }
 
 .share-text {
@@ -20,6 +20,7 @@
   font-size: 12px;
   letter-spacing: 4px;
   padding-right: 15px;
+  padding-left: 15px;
 }
 
 svg {
