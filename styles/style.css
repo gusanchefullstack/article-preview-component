@@ -14,6 +14,7 @@ body {
 .component {
     background-color: white;
     flex: 0 1 50%;
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,11 +24,6 @@ body {
     overflow: hidden;
     box-shadow: 9px 11px 15px 0px hsl(210deg 25% 89%);
 }
-
-/* .component__image {
-    flex: 0 1 100%;
-   
-} */
 
 .component__image-properties {
     width: 360px;
