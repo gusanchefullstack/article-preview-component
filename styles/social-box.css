@@ -1,0 +1,134 @@
+.social__box {
+  display: flex;
+  flex-wrap: nowrap;
+  flex: 0 1 auto;
+  background-color: hsl(217, 19%, 35%);
+  padding: 15px 25px 15px 25px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+.social__icons{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.social__text {
+  font-size: 12px;
+  letter-spacing: 5px;
+  font-family: 'Manrope', sans-serif;
+  color: hsl(212, 23%, 69%);
+  margin-right: 20px;
+}
+
+.svg-facebook {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.svg-twitter {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.svg-pinterest {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.social__box-vortex {
+  width: 20px;
+  height: 20px;
+  background-color: hsl(217, 19%, 35%);
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: -22px;
+  left: 77%;
+}
+
+.social__share__container {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-device-width: 480px) {
+
+  .social__box {
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 0 1 auto;
+    background-color: hsl(217, 19%, 35%);
+    padding: 10px 35px 10px 25px;
+    border-radius: initial;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 88%;
+  }
+  
+  .social__icons{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .social__text {
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-family: 'Manrope', sans-serif;
+    color: hsl(212, 23%, 69%);
+    margin-right: 20px;
+  }
+  
+  .svg-facebook {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .svg-twitter {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .svg-pinterest {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .social__box-vortex {
+    display: none;
+  }
+  
+  .social__share {
+    display: block;
+  }
+  
+  .social__share__container {
+    display: flex;
+    background-color: hsl(212, 23%, 69%);
+    width: 20px;
+    height: 20px;
+    padding: 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
