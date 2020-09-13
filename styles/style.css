@@ -19,7 +19,6 @@ body {
     justify-content: space-between;
     align-items: center;
     border-radius: 20px;
-    /* border: 1px solid black; Testing*/ 
     font-family: 'Manrope', sans-serif;
     overflow: hidden;
     box-shadow: 9px 11px 15px 0px hsl(210deg 25% 89%);
@@ -30,7 +29,6 @@ body {
     object-fit: cover;
     
 }
-
 
 .component__content {
     padding: 0px 40px 0px 40px;
@@ -122,6 +120,5 @@ body {
 
     .social {
         padding-top: 20px;
-    }
-    
+    }   
 }
