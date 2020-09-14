@@ -4,6 +4,7 @@ body {
 }
 
 .container {
+    margin: 0 auto;
     max-width: 1440px;
     height: 95vh;
     display: flex;
@@ -94,7 +95,24 @@ body {
 .attribution { font-size: 11px; text-align: center; padding-top: 20px;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media screen and (max-device-width: 767px) {
+/* Media Screen específico para Ipad */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .component {
+        flex: 0 1 90%;
+        
+    }
+
+    .component__image-properties {
+        width: 45%;    
+    }
+
+}
+
+@media screen and (max-device-width: 480px) {
 
     .container {
         height: 97vh;
