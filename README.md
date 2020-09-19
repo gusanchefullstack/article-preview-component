@@ -6,11 +6,13 @@
 
 Gracias por revisar este repositorio que contiene el código del reto de Frontend Mentor [**Article Previe Component**](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT)
 
+La aplicación final la puedes visualizar [aqui](https://article-preview-component-jet-sigma.vercel.app/) y es responsive!
 
 ## Cómo lo solucioné?
 
 1. Inicie por el HTML y luego empecé a agregar los elementos de CSS.
 2. Luego agregué el archivo Javscript para detectar el click en el botón de Share y desplegar el **social-box** con los íconos de las diferentes redes sociales.
+
 
 ## A tener en cuenta en el desarrollo del proyecto
 
